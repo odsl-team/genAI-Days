@@ -1,0 +1,8 @@
+numpy
+torch
+normflows
+jupyter
+corner
+
+# Uncomment if you want to generate your own training data:
+# lalsuite
