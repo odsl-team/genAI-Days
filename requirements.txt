@@ -1,8 +1,9 @@
 numpy
 torch
-normflows
+glasflow
 jupyter
 corner
+tqdm
 
 # Uncomment if you want to generate your own training data:
 # lalsuite
