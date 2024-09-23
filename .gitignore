@@ -1,4 +1,4 @@
 .DS_Store
 
 # All data files
-01_normalizing_flows/data/*
+#01_normalizing_flows/data/*

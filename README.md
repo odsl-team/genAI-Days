@@ -10,7 +10,7 @@ and their application to physics.
 
 To run the tutorials, download this repository with 
 ```
-git clone [link]
+git clone [https or ssh link]
 ```
 create a new virtual environment via
 ```
@@ -25,3 +25,5 @@ Afterwards, enter the `genAI-Days` folder with `cd genAI-Days` and install all r
 ```
 pip install -r requirements.txt
 ```
+
+You can start the jupyter notebook by typing `jupyter notebook` in the terminal. 
