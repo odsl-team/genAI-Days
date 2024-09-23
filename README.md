@@ -26,4 +26,10 @@ Afterwards, enter the `genAI-Days` folder with `cd genAI-Days` and install all r
 pip install -r requirements.txt
 ```
 
+If you want to use `conda` to setup the environment (or you have problems installing `lalsuite`), you can use the following commands:
+```
+conda create -c conda-forge -n genai python=3.10 pytorch lalsuite glasflow corner numpy matplotlib jupyter tqdm
+conda activate genai
+```
+
 You can start the jupyter notebook by typing `jupyter notebook` in the terminal. 
