@@ -46,7 +46,7 @@ To have access to your google drive on (?) you first need to mount it:
 
 ```
 from google.colab import drive
-drive.mount('/content/drive’)
+drive.mount('/content/drive')
 ```
 
 And then set `data_folder` to your corresponding drive.
