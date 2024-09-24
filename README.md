@@ -33,3 +33,32 @@ conda activate genai
 ```
 
 You can start the jupyter notebook by typing `jupyter notebook` in the terminal. 
+
+To open these notebooks in collab, use the link below:
+
+`**Open in colab:**
+
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/odsl-team/genAI-Days/blob/main/)
+
+For running in collab generating the data in one notebook and then loading it in the other notebook, just need to make sure you save the data to your google drive and then load it back in.
+
+To have access to your google drive on (?) you first need to mount it:
+
+```
+from google.colab import drive
+drive.mount('/content/drive’)
+```
+
+And then set `data_folder` to your corresponding drive.
+
+`data_folder = "/content/drive/My Drive”`
+
+There are also a few packages that aren't previously installed in the default collab interface, but you can install them in a dedicated cell before the import, e.g, 
+
+`!pip install lalsuite`
+
+`!pip install corner`
+
+and so on :)
+
+Happy coding!!
