@@ -6,3 +6,4 @@ corner
 tqdm
 lalsuite
 matplotlib
+torchdiffeq
