@@ -34,9 +34,18 @@ conda activate genai
 
 You can start the jupyter notebook by typing `jupyter notebook` in the terminal. 
 
-To open these notebooks in collab, use the link below:
+
+**Data generation:**
+
+The data is generated in the nb:
+- `01_normalizing_flows/01_data_generation.ipynb`
+
+Also on **dropbox** [here](https://www.dropbox.com/home/ODSL-genAIdays-data)
 
 `**Open in colab:**
+
+To open these notebooks in collab, use the link below:
+
 
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/odsl-team/genAI-Days/blob/main/)
 
